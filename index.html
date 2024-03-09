@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>JokenPô</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <h1>JokenPô</h1> -->
+<img src="./images/jokepo.png">
+
+        <div class="button1">
+            <button id="rock" onclick="playHuman('rock')">&#x270A;</button>
+        </div>
+        <div class="buttons2">
+            <button id="paper" onclick="playHuman('paper')">&#x270B;</button>
+            <button id="scissors" onclick="playHuman('scissors')">&#x1F91E;</button>
+        </div>
+
+        <p class="result"></p>
+        <p class="your-score">Sua Pontuação: <span id="human-score">0</span></p>
+        <p class="machine-score">Pontuação da IA: <span id="machine-score">0</span></p>
+    </div>
+
+    <script src="./scripts.js">
+
+    </script>
+</body>
+
+</html>
